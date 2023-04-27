@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_option('server.enableCORS', True)
 headline = st.text_input('Enter news headline (Hindi/English):')
 # Population size input
 pop_size = st.number_input('Enter population size:')
